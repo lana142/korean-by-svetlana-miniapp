@@ -26,14 +26,12 @@ document.addEventListener('click', event => {
   if (!action) return;
 
   if (action.dataset.action === 'channel') {
-    // Replace with your real Telegram channel username.
-    const url = 'https://t.me/';
+    const url = 'https://t.me/svetakorean';
     if (tg?.openTelegramLink) tg.openTelegramLink(url); else window.open(url, '_blank');
   }
 
   if (action.dataset.action === 'contact') {
-    // Replace with your Telegram username.
-    const url = 'https://t.me/';
+    const url = 'https://t.me/holana142';
     if (tg?.openTelegramLink) tg.openTelegramLink(url); else window.open(url, '_blank');
   }
 });
